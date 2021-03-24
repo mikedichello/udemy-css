@@ -1,0 +1,19 @@
+.grid-container {
+	margin-top: 5rem;
+	border: 2px solid black;
+	display: grid;
+	box-sizing: border-box;
+	height: 60vh;
+	grid-template-columns: 33% auto;
+	grid-template-rows: 80% auto;
+}
+div {
+	border: 15px solid rgb(190, 188, 188);
+	background-color: rgb(49, 49, 49);
+	font-size: 1.2rem;
+	color: white;
+	text-align: center;
+}
+.footer {
+	grid-column-end: span 2;
+}
